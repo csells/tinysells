@@ -1,2 +1,1 @@
-# tinysells
-tinysells.com redirect implementation
+Chris Sells
