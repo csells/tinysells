@@ -1,3 +1,2 @@
-Chris Sells
-csells@google.com
-
+# tinysells
+tinysells.com redirect implementation
