@@ -1441,7 +1441,8 @@ class MainPage(webapp2.RequestHandler):
         #self.response.write(link)
         return self.redirect(link)
       except:
-        self.abort(404)
+        #self.abort(404)
+        self.response.write(open( 'home.html', 'r' ).read())
 
 app = webapp2.WSGIApplication([
     (r'/(\d+)', MainPage),
